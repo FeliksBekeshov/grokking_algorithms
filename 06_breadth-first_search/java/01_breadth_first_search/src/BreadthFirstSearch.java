@@ -4,7 +4,7 @@ public class BreadthFirstSearch {
     private static Map<String, List<String>> graph = new HashMap<>();
 
     private static boolean search(String name) {
-        Queue<String> searchQueue = new ArrayDeque<>(graph.get(name));
+        Queue<String> searchQueue = new ArrayDeque<>(graph.get(name)); 
         // This list is how you keep track of which people you've searched before.
         List<String> searched = new ArrayList<>();
 
